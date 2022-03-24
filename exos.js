@@ -81,6 +81,4 @@ const user = {
   };
   // add one line with destructuring assignments here for this code to work
   const {name, address: {city, country: {countryName}}} = user;
-  console.log(`${name} lives in ${city}, ${countryName}`)
-  
-  
+  console.log(`${name} lives in ${city}, ${countryName}`);  
